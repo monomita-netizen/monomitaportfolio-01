@@ -1,18 +1,69 @@
-
-
-
-
-body p{
-    width: 20px;
-    padding: 100px;
+article{
+    width: 700px;
     margin: auto;
-    align-items: center;
 }
 
 
-img src IMG_20250203_093219770.jpg{
-padding-left: 50px;
+p{
+    width: 400px;
+    padding-inline: 800px;
+    margin: auto;
+    align-items: auto;
+    padding-top: 20px;
+}
+
+
+img{
+padding-inline: 600px;
 margin: auto;
-align-items: center;
+align-items: auto;
 
 }
+
+h1{
+    color: rgb(12, 91, 152);
+    padding-left: 550px;
+    margin-inline: 20px;
+
+}
+
+h3{
+   text-align: end; 
+    margin-right: 20px;
+
+}   
+
+li{
+    padding-left: 100px;
+
+}
+
+.rectangle{
+    width: 500px;/* set width */
+    height: 100px;/* set height */ 
+    background: rgb(165,65,255);
+background: linear-gradient(90deg, rgba(165,65,255,0.9831582291119573) 20%, rgba(0,212,255,1) 100%);/* keeps it blank*/
+border: 2px salmon;/* adds a border*/
+
+    padding-inline: 100px;
+    margin-left: 400px;
+
+
+}
+.rectangle1{
+    width: 400px;/* set width*/
+    height: 100px;/* set height*/
+    background: rgb(248,174,195);
+background: linear-gradient(90deg, rgba(248,174,195,0.9747548677674195) 34%, rgba(0,212,255,1) 100%);
+
+padding-inline: 100px;
+margin-left: 450px;
+margin-top: 20px;
+
+}
+
+div p{
+    margin: 30px;
+}
+
+
