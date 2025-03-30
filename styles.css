@@ -1,0 +1,103 @@
+section {
+    border: 2px solid #666;
+    width: 1000px;
+    display: flex;
+
+}
+
+
+section .left {
+background-color: #caddb3;
+text-align: center;
+padding: 20px 0;
+flex: 1;
+}
+
+section .right{
+    background-color: #6a0c4a;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    flex: 1;
+}
+
+#parent1 {
+    background-color: beige;
+   border: 5px solid maroon;
+    padding: 40px;
+    width: 1000px;
+    margin: 100px;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.child {
+    padding: 20px;
+    border: 2px solid #0084ff;
+    background-color: red
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+#parent {
+    background-color: rgb(252, 252, 252);
+    width: 900px;
+    padding: 40px;
+    gap: 30px;
+    margin-left: 250px;
+    
+}
+
+nav {
+    background-color: #cfad77;
+    padding: 20px;
+    width: 900px;
+    margin-left: 280px;
+    justify-content: center;
+}
+
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+display: flex;
+justify-content: center;
+background-color: #caddb3;
+width: 900px;
+
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+}
+
+section {
+    background-color: #f9f5f5;
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    gap: 20px;
+    
+}
+
+.row p {
+    flex: 1;
+}
+
+
+
+
+

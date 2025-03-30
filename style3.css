@@ -1,0 +1,38 @@
+section {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+   
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 50px 0;
+    color: #611567;
+}
+
+article {
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    background-color: darkgoldenrod; 
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    margin: 100px 250px;
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 0 5px;
+    margin: 50px 50px;
+   
+}
